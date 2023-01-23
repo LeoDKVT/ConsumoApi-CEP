@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consumo de API</title>
+</head>
+
+<body>
+    <h1>Informe um CEP para mostrar todos <br> os dados da localidade</h1>
+
+    <section>
+        <form id="buscaCep" action="cadastro.php" method="post">
+            
+                <label for="cep">CEP:</label>
+                <input type="number" name="icep" id="cep" required placeholder="Informe um CEP aqui">
+            
+            <input type="button" value="Buscar CEP" id="btnCep">
+            <p>
+                <label for="logradouro">Logradouro:</label>
+                <input type="text" name="iLogradouro" id="logradouro">
+            </p>
+            <p>
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="ibairro" id="bairro">
+            </p>
+            <p>
+                <label for="localidade">Localidade:</label>
+                <input type="text" name="ilocalidade" id="localidade">
+            </p>
+            <p>
+                <label for="uf">UF:</label>
+                <input type="text" name="iuf" id="uf">
+            </p>
+        </form>
+
+        <div class="resultadoCep"></div>
+    </section>
+
+    <footer> <p>2023 &copy;  José Leonardo</p></footer>
+
+    <script src="consumoAPI.js"></script>
+</body>
+
+</html>
