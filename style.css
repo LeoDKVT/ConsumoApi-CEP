@@ -9,7 +9,7 @@ body {
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     background-repeat: no-repeat;
-    font-size: 1.4em;
+    font-size: 1.2em;
 
 }
 h1 {
@@ -20,9 +20,8 @@ h1 {
 
 section {
     display: flex;
-    justify-content: center;
     margin: auto;
-
+    padding: 60px 10px;
     background-color: #C850C0;
     max-width: 500px;
     border-radius: 10px;
@@ -30,10 +29,41 @@ section {
 
 }
 
-section p {
-    margin: 20px;
-    font-size: 1.2em;
+label {
+    margin: 0px;
+    font-size: 1.4em;
     font-weight: 600;
+}
+
+input {
+    background-color: black;
+    color: white;
+    padding-left: 4px;
+    margin: 12px;
+    height: 28px;
+    border-radius: 10PX;
+    border: black;
+}
+#rua {
+    width: 280px;
+}
+
+#uf {
+    width: 40px;
+}
+
+#btnCep {
+    background-color: #4158D0;
+    color: white;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btnCep:hover {
+    background-color: #FFCC70;
+    color: black;
 }
 
 footer {

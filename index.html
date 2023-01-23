@@ -13,34 +13,38 @@
     <h1>Informe um CEP para mostrar todos <br> os dados da localidade</h1>
 
     <section>
-        <form id="buscaCep" action="cadastro.php" method="post">
-            
-                <label for="cep">CEP:</label>
-                <input type="number" name="icep" id="cep" required placeholder="Informe um CEP aqui">
-            
-            <input type="button" value="Buscar CEP" id="btnCep">
-            <p>
-                <label for="logradouro">Logradouro:</label>
-                <input type="text" name="iLogradouro" id="logradouro">
-            </p>
-            <p>
-                <label for="bairro">Bairro:</label>
-                <input type="text" name="ibairro" id="bairro">
-            </p>
-            <p>
-                <label for="localidade">Localidade:</label>
-                <input type="text" name="ilocalidade" id="localidade">
-            </p>
-            <p>
-                <label for="uf">UF:</label>
-                <input type="text" name="iuf" id="uf">
-            </p>
-        </form>
 
         <div class="resultadoCep"></div>
+
+
+        <form method="get" action=".">
+            <label for="cep">CEP:</label>
+            <input name="icep" type="text" id="cep" value="" required placeholder="Informe um CEP aqui" maxlength="9"
+                onblur="pesquisacep(this.value);">
+            <input type="button" value="Buscar CEP" id="btnCep">
+            <br>
+
+            <label for="rua">LOGRADOURO:</label>
+            <input name="irua" type="text" id="rua">
+            <br>
+
+            <label for="bairro">BAIRRO:</label>
+            <input name="ibairro" type="text" id="bairro">
+            <br>
+
+            <label for="cidade">CIDADE:</label>
+            <input name="icidade" type="text" id="cidade">
+            <br>
+
+            <label for="uf">UF:</label>
+            <input name="iuf" type="text" id="uf">
+            <br>
+        </form>
     </section>
 
-    <footer> <p>2023 &copy;  José Leonardo</p></footer>
+    <footer>
+        <p>2023 &copy; José Leonardo</p>
+    </footer>
 
     <script src="consumoAPI.js"></script>
 </body>
