@@ -14,6 +14,7 @@ body {
 }
 h1 {
     text-align: center;
+    font-size: 2.6em;
     padding: 80px 4px;
 }
 
@@ -30,7 +31,6 @@ section {
 }
 
 label {
-    margin: 0px;
     font-size: 1.4em;
     font-weight: 600;
 }
@@ -41,7 +41,7 @@ input {
     padding-left: 4px;
     margin: 12px;
     height: 28px;
-    border-radius: 10PX;
+    border-radius: 10px;
     border: black;
 }
 #rua {
@@ -68,5 +68,6 @@ input {
 
 footer {
     text-align: center;
+    font-size: 1.6em;
     margin: 20px 4px;
 }

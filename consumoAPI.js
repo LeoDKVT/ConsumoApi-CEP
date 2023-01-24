@@ -70,4 +70,4 @@ function handleClick(event) {
     event.preventDefault();
     const cep = inputCep.value;
     buscaCep(cep);
-}
+};

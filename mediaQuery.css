@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+    section {
+        margin: auto;
+        padding: 40px 4px;
+        max-width: 300px;
+
+    }
+
+    h1 {
+        font-size: 2.4em;
+    }
+
+    label {
+        font-size: 1.2em;
+    }
+
+    input {
+        margin: 2px 0px 20px 0px;
+    }
+
+    #cep {
+        width: 150px;
+    }
+
+    #rua {
+        display: block;
+        width: 296px;
+    }
+
+    #bairro {
+        display: block;
+        width: 296px;
+    }
+
+    #cidade {
+        display: block;
+        width: 296px;
+    }
+    
+    #uf {
+        display: block;
+        width: 22px;
+        margin-bottom: 0px;
+    }
+
+    #btnCep {
+        margin-bottom: 40px;
+    }
+    
+    footer {
+        font-size: 1.4em;
+        text-align: center;
+        margin: 20px 4px;
+    }
+}
