@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
     section {
         margin: auto;
-        padding: 40px 4px;
+        padding: 40px 8px;
         max-width: 300px;
 
     }
@@ -19,7 +19,8 @@
     }
 
     #cep {
-        width: 150px;
+        width: 100px;
+        margin-right: 20px;
     }
 
     #rua {
@@ -45,6 +46,7 @@
 
     #btnCep {
         margin-bottom: 40px;
+        margin-left: 0px;
     }
     
     footer {

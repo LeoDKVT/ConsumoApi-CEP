@@ -12,6 +12,7 @@ body {
     font-size: 1.2em;
 
 }
+
 h1 {
     text-align: center;
     font-size: 2.6em;
@@ -44,6 +45,7 @@ input {
     border-radius: 10px;
     border: black;
 }
+
 #rua {
     width: 280px;
 }
@@ -52,20 +54,29 @@ input {
     width: 40px;
 }
 
+/* style do botão */
 #btnCep {
-    background-color: #4158D0;
-    color: white;
-    margin-left: 10px;
-    padding: 6px;
-    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
     cursor: pointer;
+    position: relative;
+    background-color: #FFCC70;
+    color: #000;
+    padding: 2px 18px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #212121;
+    border-radius: 10px;
 }
 
 #btnCep:hover {
-    background-color: #FFCC70;
-    color: black;
+    background: #fff;
+    font-weight: 600;
+    color: #ac19a2;
 }
 
+/* Rodopé */
 footer {
     text-align: center;
     font-size: 1.6em;
